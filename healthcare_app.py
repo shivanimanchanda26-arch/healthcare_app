@@ -143,13 +143,20 @@ with col_m1:
     st.markdown("""
     <div class="card">
         <div style="font-size: 14px; font-weight: bold; color: #ffffff; margin-bottom: 12px;">📈 Scan Quality & Verification Progress</div>
+        
+        <div style="color: #ffffff; font-size: 13px; font-weight: 600; margin-bottom: 4px;">Batch Validation Score (82%)</div>
     </div>
     """, unsafe_allow_html=True)
-    st.markdown("<span style='color: #ffffff; font-size: 12px;'>Batch Validation Score (82%)</span>", unsafe_allow_html=True)
     st.progress(0.82)
-    st.markdown("<span style='color: #ffffff; font-size: 12px;'>Confidence Alignment (65%)</span>", unsafe_allow_html=True)
+    
+    st.markdown("""
+    <div style="color: #ffffff; font-size: 13px; font-weight: 600; margin-top: 10px; margin-bottom: 4px;">Confidence Alignment (65%)</div>
+    """, unsafe_allow_html=True)
     st.progress(0.65)
-    st.markdown("<span style='color: #ffffff; font-size: 12px;'>Reliability Index (91%)</span>", unsafe_allow_html=True)
+    
+    st.markdown("""
+    <div style="color: #ffffff; font-size: 13px; font-weight: 600; margin-top: 10px; margin-bottom: 4px;">Reliability Index (91%)</div>
+    """, unsafe_allow_html=True)
     st.progress(0.91)
 
 with col_m2:
